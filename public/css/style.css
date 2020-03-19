@@ -1,0 +1,226 @@
+html {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+}
+
+/*       MENU        */
+
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: lightgreen;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.navegador li a{
+	color: #fff;
+	text-decoration: none;
+}
+.navegador li a:hover{
+	font-weight: bold;
+}
+.navegador li{
+    list-style: none;
+    padding: 11px 0;
+}
+.navegador {
+	padding: 0;
+    margin: 0 5px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+    top: -8px;
+    left: 7px;
+    position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,limegreen,limegreen);
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+#menu-bar{
+	z-index: 3;	
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+    transform: translate(-60%,-30%);
+    z-index: 2;	
+}
+.change .bar{
+	background-color: white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+/*       HOME        */
+
+
+h1 {
+    font-size: 40pt;
+}
+
+.links, .cadalogar {
+    font-size: 14pt;
+
+}
+
+.links {
+    display: inline-grid;
+    text-decoration: none;
+    text-align: center;
+	margin-top: 3%;
+	margin-left: 42%;
+}
+
+.cad, .lis, .nov, .prop, .usu {
+    transition: font-size 1s;
+    text-decoration: none;
+}
+
+.cad:hover, .lis:hover, .nov:hover, .prop:hover, .usu:hover {
+    font-size: 15pt;
+	transition: 1s;
+	text-decoration: none;
+
+}
+
+.divcad, .divlis, .divnov, .divprop, .divusu {
+    margin-top: 10%;
+}
+
+.cadalogar {
+    margin-left: 77%;
+    display: flex;
+    position: absolute;
+}
+
+.cadusuario {
+    text-decoration: none;
+    margin: 10%;
+}
+
+.logusuario {
+    text-decoration: none;
+    margin: 10%;
+}
+
+.trCliente {
+	background-color: limegreen;
+	color: white;
+}
+
+
+
+
+
+
+
+
+ .botao {
+	background-color: limegreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+    font-size: 12pt;
+    margin-left: 27%;
+}
+
+.formulario {
+	margin-top: -2%;
+	margin-left: 39%;
+    display: inline-block;
+}
+
+.id {
+	font-weight: bold;
+}
+
+.mensagem {
+	text-align: left;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+
+
+
+
+.formularioProposta {
+	margin-left: 35%;
+    margin-top: 0%;
+    display: inline-grid;
+}
+
+.inputProposta {
+	padding: 0% 20% 0% 0%;
+}
+
+.botaoProp {
+	background-color: limegreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+	margin-left: 28%;
+    margin-right: 37%;
+}
+
+
+
+
+.formEdit {
+    text-align: center;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+
+.form-control {
+	text-align: center;
+}
+
+.label {
+	margin: 0%;
+}
+
+.field {
+    margin-bottom: 6%;
+}
